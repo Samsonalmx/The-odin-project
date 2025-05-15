@@ -91,3 +91,62 @@ img{
     margin-left:10px;
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #0b0b0a;
+    text-align: center;
+}
+
+
+.rows-of-blue-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    border: 1px solid #7475c3;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.p-second{
+    text-align: center;
+    max-width: 250px;
+    margin-left: 35px;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-section{
+    height:50vh;
+}
+
+h3{
+    font-size:36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight:300;
+    text-align: center;
+}
+
+.p-third{
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+    margin: 10px;
+}
+#p-div{
+    display: flex;
+    margin-left: 1250px;;
+}
