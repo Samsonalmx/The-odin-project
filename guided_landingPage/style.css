@@ -146,7 +146,80 @@ h3{
     text-align: center;
     margin: 10px;
 }
+
 #p-div{
     display: flex;
     margin-left: 1250px;;
+}
+
+.last-section{
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container{
+    background-color: #3882f6;
+    width:65%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px; 
+}
+
+.left{
+    width: 80%;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+h4{
+    font-size: 24px;
+    color: #f9FAF8;
+    font-weight: bolder;
+
+}
+
+.last-p{
+    font-size: 15px;
+    color: #f9FAF8;
+    margin-top: 3px;
+}
+
+.right{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.last-button{
+    background-color: #3882f6;
+    color: #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    width:120px;
+    font-size: medium;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #f9FAF8;
 }
